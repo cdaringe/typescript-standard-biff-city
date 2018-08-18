@@ -1,0 +1,19 @@
+{
+  "name": "typescript-standard-biff-city",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-plugin-typescript": "^0.12.0",
+    "standard": "^11.0.1",
+    "typescript-eslint-parser": "^18.0.0",
+    "typescript": "^3.0.1"
+  },
+  "scripts": {
+    "lint": "standard '**/src/**/*.ts'"
+  },
+  "standard": {
+    "parser": "typescript-eslint-parser",
+    "plugins": [ "typescript" ]
+  }
+}
